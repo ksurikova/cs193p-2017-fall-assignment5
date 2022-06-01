@@ -10,9 +10,16 @@
 		EF4841A02840D7BD004917B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF48419F2840D7BD004917B0 /* AppDelegate.swift */; };
 		EF4841A22840D7BD004917B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841A12840D7BD004917B0 /* SceneDelegate.swift */; };
 		EF4841A42840D7BD004917B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841A32840D7BD004917B0 /* ViewController.swift */; };
-		EF4841A72840D7BD004917B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4841A52840D7BD004917B0 /* Main.storyboard */; };
 		EF4841A92840D7BE004917B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4841A82840D7BE004917B0 /* Assets.xcassets */; };
 		EF4841AC2840D7BE004917B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4841AA2840D7BE004917B0 /* LaunchScreen.storyboard */; };
+		EF4841B82840D836004917B0 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841B72840D836004917B0 /* GalleryModel.swift */; };
+		EF4841BC2840D842004917B0 /* TitleEditableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841B92840D842004917B0 /* TitleEditableTableViewCell.swift */; };
+		EF4841BD2840D842004917B0 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841BA2840D842004917B0 /* ImageCollectionViewCell.swift */; };
+		EF4841BE2840D842004917B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4841BB2840D842004917B0 /* Main.storyboard */; };
+		EF4841C22840D86A004917B0 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841BF2840D86A004917B0 /* ImageViewController.swift */; };
+		EF4841C32840D86A004917B0 /* GalleriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841C02840D86A004917B0 /* GalleriesTableViewController.swift */; };
+		EF4841C42840D86A004917B0 /* GalleryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841C12840D86A004917B0 /* GalleryCollectionViewController.swift */; };
+		EF4841C62840D892004917B0 /* StaticsAndExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4841C52840D892004917B0 /* StaticsAndExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +27,17 @@
 		EF48419F2840D7BD004917B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF4841A12840D7BD004917B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF4841A32840D7BD004917B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF4841A62840D7BD004917B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF4841A82840D7BE004917B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4841AB2840D7BE004917B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4841AD2840D7BE004917B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4841B72840D836004917B0 /* GalleryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryModel.swift; sourceTree = "<group>"; };
+		EF4841B92840D842004917B0 /* TitleEditableTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleEditableTableViewCell.swift; sourceTree = "<group>"; };
+		EF4841BA2840D842004917B0 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF4841BB2840D842004917B0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		EF4841BF2840D86A004917B0 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		EF4841C02840D86A004917B0 /* GalleriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleriesTableViewController.swift; sourceTree = "<group>"; };
+		EF4841C12840D86A004917B0 /* GalleryCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewController.swift; sourceTree = "<group>"; };
+		EF4841C52840D892004917B0 /* StaticsAndExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticsAndExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,54 @@
 		EF48419E2840D7BD004917B0 /* cs193p-2017-fall-assignment5 */ = {
 			isa = PBXGroup;
 			children = (
-				EF48419F2840D7BD004917B0 /* AppDelegate.swift */,
-				EF4841A12840D7BD004917B0 /* SceneDelegate.swift */,
+				EF4841B62840D82B004917B0 /* View */,
+				EF4841B52840D825004917B0 /* Controller */,
+				EF4841B42840D81F004917B0 /* Model */,
+				EF4841B32840D7C7004917B0 /* Supporting Files */,
 				EF4841A32840D7BD004917B0 /* ViewController.swift */,
-				EF4841A52840D7BD004917B0 /* Main.storyboard */,
-				EF4841A82840D7BE004917B0 /* Assets.xcassets */,
-				EF4841AA2840D7BE004917B0 /* LaunchScreen.storyboard */,
 				EF4841AD2840D7BE004917B0 /* Info.plist */,
 			);
 			path = "cs193p-2017-fall-assignment5";
+			sourceTree = "<group>";
+		};
+		EF4841B32840D7C7004917B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF4841C52840D892004917B0 /* StaticsAndExtensions.swift */,
+				EF4841AA2840D7BE004917B0 /* LaunchScreen.storyboard */,
+				EF4841A82840D7BE004917B0 /* Assets.xcassets */,
+				EF4841A12840D7BD004917B0 /* SceneDelegate.swift */,
+				EF48419F2840D7BD004917B0 /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF4841B42840D81F004917B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF4841B72840D836004917B0 /* GalleryModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF4841B52840D825004917B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF4841C02840D86A004917B0 /* GalleriesTableViewController.swift */,
+				EF4841C12840D86A004917B0 /* GalleryCollectionViewController.swift */,
+				EF4841BF2840D86A004917B0 /* ImageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EF4841B62840D82B004917B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF4841BA2840D842004917B0 /* ImageCollectionViewCell.swift */,
+				EF4841BB2840D842004917B0 /* Main.storyboard */,
+				EF4841B92840D842004917B0 /* TitleEditableTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +180,7 @@
 			files = (
 				EF4841AC2840D7BE004917B0 /* LaunchScreen.storyboard in Resources */,
 				EF4841A92840D7BE004917B0 /* Assets.xcassets in Resources */,
-				EF4841A72840D7BD004917B0 /* Main.storyboard in Resources */,
+				EF4841BE2840D842004917B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF4841BD2840D842004917B0 /* ImageCollectionViewCell.swift in Sources */,
 				EF4841A42840D7BD004917B0 /* ViewController.swift in Sources */,
 				EF4841A02840D7BD004917B0 /* AppDelegate.swift in Sources */,
+				EF4841C22840D86A004917B0 /* ImageViewController.swift in Sources */,
+				EF4841C32840D86A004917B0 /* GalleriesTableViewController.swift in Sources */,
+				EF4841C62840D892004917B0 /* StaticsAndExtensions.swift in Sources */,
+				EF4841B82840D836004917B0 /* GalleryModel.swift in Sources */,
+				EF4841BC2840D842004917B0 /* TitleEditableTableViewCell.swift in Sources */,
+				EF4841C42840D86A004917B0 /* GalleryCollectionViewController.swift in Sources */,
 				EF4841A22840D7BD004917B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +207,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF4841A52840D7BD004917B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF4841A62840D7BD004917B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF4841AA2840D7BE004917B0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,6 +347,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,6 +376,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
