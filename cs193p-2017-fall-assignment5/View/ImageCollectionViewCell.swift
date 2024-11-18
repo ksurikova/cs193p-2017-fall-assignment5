@@ -7,22 +7,22 @@
 import UIKit
 
 class ImageCollectionViewCell: UICollectionViewCell {
-    
+
     @IBOutlet weak var imageView: UIImageView!
-    
+
     @IBOutlet weak var loadingIndicator: UIActivityIndicatorView!
-    
-    var imageURL : URL? {
+
+    var imageURL: URL? {
         didSet {
             fetchImage()
         }
     }
-    
+
     var indicateWhatImageIsWrong: (() -> Void)?
-    
+
     private(set) var image: UIImage? {
         get {
-            return imageView.image
+            imageView.image
         }
         set {
             imageView.image = newValue
@@ -41,8 +41,7 @@ class ImageCollectionViewCell: UICollectionViewCell {
                     if url == self.imageURL {
                         if let imageData = urlContents {
                             self.image = UIImage(data: imageData)
-                        }
-                        else  {
+                        } else {
                             self.image = Utilities.imageNotFetchedEmoji.emojiToImage(size: Utilities.imageElementWidth)
                             if let notify = self.indicateWhatImageIsWrong {
                                 notify()
@@ -53,6 +52,4 @@ class ImageCollectionViewCell: UICollectionViewCell {
             }
         }
     }
-    
 }
-

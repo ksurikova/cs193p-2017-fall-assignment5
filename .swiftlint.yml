@@ -1,0 +1,39 @@
+# SwiftLint Configuration File
+
+# Disable specific rules
+disabled_rules:
+ - identifier_name      # Allows long variable names (optional based on preference)
+ - todo                 # Allows TODO comments in code
+
+# Customize existing rules
+line_length:
+ warning: 130           # Warn if lines exceed 130 characters
+ error: 180             # Error if lines exceed 180 characters
+ ignores_comments: true # Optional: Ignores line length in comments if desired
+ ignores_urls: true     # Optional: Ignores line length for URLs if present
+
+type_body_length:
+ warning: 300          # Warn if a type body exceeds 300 lines
+ error: 500            # Error if a type body exceeds 500 lines
+
+function_body_length:
+ warning: 40           # Warn if a function body exceeds 40 lines
+ error: 75             # Error if a function body exceeds 75 lines
+
+# Enforce rules for readability and maintainability
+opt_in_rules:
+ - closure_spacing     # Enforces spacing in closures for consistency
+ - implicit_return     # Enforces the use of implicit returns in closures for readability
+ - vertical_whitespace_closing_braces  # Enforces vertical spacing around closing braces
+ - vertical_parameter_alignment        # Aligns parameters vertically for consistency
+ - prefer_self_in_static_references    # Enforces `self.` in static references for clarity
+
+# Exclude certain files or directories
+excluded:
+ - Pods                # Exclude third-party dependencies
+ - Generated           # Exclude auto-generated files or folders
+ - "**/Generated/**"   # Exclude all subdirectories named Generated
+
+
+
+

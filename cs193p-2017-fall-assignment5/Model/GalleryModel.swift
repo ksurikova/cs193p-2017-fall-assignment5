@@ -10,14 +10,13 @@ import UIKit
 
 struct ImageElement {
     var aspectRatio: CGFloat
-    var imageUrl : URL
-    var isImageFetched : Bool?
+    var imageUrl: URL
+    var isImageFetched: Bool?
 }
 
 class Gallery {
-    var name : String
+    var name: String
     var images: [ImageElement]
-    
     init(name: String, images: [ImageElement] = [ImageElement]()) {
         self.name = name
         self.images = images
